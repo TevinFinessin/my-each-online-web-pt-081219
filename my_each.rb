@@ -1,7 +1,12 @@
 def my_each(words) # put argument(s) here
   # code here
-  my_each(words) do |word|
+  i = 0
+  
+  while i < names.length
+  yield(words[i])
+  i = i + 1
 end
+words
 end
 #def hello_t(names)
 #  if block_given?
