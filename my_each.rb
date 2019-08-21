@@ -1,6 +1,6 @@
 def my_each(words) # put argument(s) here
   # code here
-  
+  words do
 end
 #def hello_t(names)
 #  if block_given?
