@@ -1,6 +1,6 @@
 def my_each(words) # put argument(s) here
   # code here
-  words do
+  i = 0
  end
 end
 #def hello_t(names)
